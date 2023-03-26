@@ -5,10 +5,10 @@ import { Button, Carousel} from "antd";
 const contentStyle = {
   margin: 0,
   height: '10px',
-  color: '#fff',
+  color: '#black',
   lineHeight: '160px',
   textAlign: 'center',
-  background: '#364d79',
+  background: '#white',
 };
 
 
