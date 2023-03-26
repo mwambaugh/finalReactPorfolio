@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "antd";
+// import { Card, Button } from "antd";
 import resume from '../utils/Resume.pdf';
 import {Document, Page, pdfjs} from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc =`//cdnjs.cloudfare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
