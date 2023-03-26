@@ -1,6 +1,6 @@
 import React from "react";
 import { GithubFilled} from "@ant-design/icons";
-import { Button, Carousel, Card} from "antd";
+import { Button, Carousel} from "antd";
 
 const contentStyle = {
   margin: 0,
@@ -18,10 +18,10 @@ const Project = () => {
     console.log(currentSlide);
   };
   return (
-    // <Carousel afterChange={onChange}>
+    <Carousel afterChange={onChange}>
       <Carousel autoplay>
       <div>
-        <h3 style={contentStyle}></h3>
+        <h3 style={contentStyle}>1</h3>
         <h1>Group Project API Study</h1>{
       <img
         alt="Project 1 API Study"
@@ -40,7 +40,7 @@ const Project = () => {
 
 
       <div>
-        <h3 style={contentStyle}></h3>
+        <h3 style={contentStyle}>2</h3>
         HTML Student Portfolio{
       <img
         alt="Student Portfolio"
@@ -59,7 +59,7 @@ const Project = () => {
 
 
       <div>
-        <h3 style={contentStyle}></h3>
+        <h3 style={contentStyle}>3</h3>
         Workday Scheduler {
       <img
         alt="Workday Scheduler"
@@ -78,7 +78,7 @@ const Project = () => {
 
 
       <div>
-        <h3 style={contentStyle}></h3>
+        <h3 style={contentStyle}>4</h3>
         Weather Dashboard {
       <img
         alt="Weather Dashboard"
@@ -96,7 +96,7 @@ const Project = () => {
       </div>
 
       <div>
-        <h3 style={contentStyle}></h3>
+        <h3 style={contentStyle}>5</h3>
         Note Taker {
       <img
         alt="Note Taker"
@@ -114,7 +114,7 @@ const Project = () => {
       </div>
 
       <div>
-        <h3 style={contentStyle}></h3>
+        <h3 style={contentStyle}>6</h3>
         Tech Blog {
       <img
         alt="Blog"
@@ -132,7 +132,7 @@ const Project = () => {
       </div>
 
       <div>
-        <h3 style={contentStyle}></h3>
+        <h3 style={contentStyle}>7</h3>
         Password Generator {
       <img
         alt="Password Generator"
@@ -149,6 +149,7 @@ const Project = () => {
       ></Button>}
       </div>
 
+    </Carousel>
     </Carousel>
 );
 };

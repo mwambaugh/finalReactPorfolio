@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Col, Row } from 'antd';
-import { Container } from "react-bootstrap";
 
 const Resume = () => (
   <Row gutter={16}>
