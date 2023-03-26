@@ -1,38 +1,32 @@
 import React from "react";
-import Octocat from "../assets/Photos/octocat-icon.svg";
-import LinkedIn from "../assets/Photos/linkedin-icon.svg";
+import { GithubFilled, LinkedinFilled } from "@ant-design/icons";
+import { Button } from "antd";
 
 function Footer() {
   return (
     <footer>
       <containter class="footer-container">
       <div>
-        <ul id="octo">
-            <a
-              href="https://github.com/mwambaugh"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={Octocat}
-                alt={"Clickable GitHub icon that opens my GitHub profile."}
-                width="62px"
-              />
-            </a>
-            </ul>
-          <ul id="linked">
-            <a
-              href="https://www.linkedin.com/in/marta-wambaugh-94892824b/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={LinkedIn}
-                alt={"Clickable LinkedIn icon that opens my LinkedIn profile."}
-                width="52px"
-              />
-            </a>
-        </ul>
+      <Button
+        type="text"
+        icon={
+          <LinkedinFilled
+            style={{ color: "#800797", fontSize: "20px" }}
+            key="link"
+          />
+        }
+        href="https://www.linkedin.com/in/marta-wambaugh-94892824b/"
+      ></Button>,
+      <Button
+        type="text"
+        icon={
+          <GithubFilled
+            style={{ color: "#800797", fontSize: "20px" }}
+            key="link"
+          />
+        }
+        href="https://github.com/mwambaugh"
+      ></Button>,
       </div>
       </containter>
     </footer>

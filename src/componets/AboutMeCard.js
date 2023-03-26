@@ -5,7 +5,7 @@ import { Avatar, Card, Button } from "antd";
 
 const { Meta } = Card;
 
-const AboutMe = () => (
+const AboutMeCard = () => (
   <Card
     hoverable={true}
     style={{ width: 300, display: "flex", flexDirection: "column" }}
@@ -48,4 +48,4 @@ const AboutMe = () => (
   </Card>
 );
 
-export default AboutMe;
+export default AboutMeCard;
