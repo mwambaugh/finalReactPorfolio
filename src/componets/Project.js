@@ -22,12 +22,12 @@ const Project = () => {
       <Carousel autoplay>
       <div>
         <h3 style={contentStyle}></h3>
-        Group Project API Study{
+        <h1>Group Project API Study</h1>{
       <img
         alt="Project 1 API Study"
         src="https://res.cloudinary.com/docfmlnne/image/upload/v1679846120/Project1_djm9kx.png"
       />},
-     Click the icon to visit the Github Repository{<Button
+     <h1>Click the icon to visit the Github Repository</h1>{<Button
         type="text"
         icon={
           <GithubFilled
