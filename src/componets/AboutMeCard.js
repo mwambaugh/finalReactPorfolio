@@ -42,8 +42,8 @@ const AboutMeCard = () => (
       avatar={
         <Avatar src="https://res.cloudinary.com/docfmlnne/image/upload/v1679764633/IMG_9460_1_xrfkow.jpg" />
       }
-      title="About Me"
-      description="I'm a full stack web developer based out of Washington D.C."
+      title="About Marta"
+      description="Marta Wambaugh is a junior full stack web developer based out of Seattle, WA and Washington, D.C. Marta is a talented painter and photographer. She enjoys consulting and developing polished UI and excells at project managment. Marta's years of experience in Visual Art and Health education are evident in her organized, efficent, and compassionate leadership. "
     />
   </Card>
 );
