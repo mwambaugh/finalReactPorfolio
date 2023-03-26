@@ -1,40 +1,40 @@
 import React from "react";
-// import Octocat from "../assets/images/octocat-icon.svg";
-// import LinkedIn from "../assets/Photos/linkenin-icon.svg";
+import Octocat from "../assets/Photos/octocat-icon.svg";
+import LinkedIn from "../assets/Photos/linkedin-icon.svg";
 
 function Footer() {
   return (
     <footer>
+      <containter class="footer-container">
       <div>
-        <ul>
-          <li id="octo">
+        <ul id="octo">
             <a
               href="https://github.com/mwambaugh"
               target="_blank"
               rel="noreferrer"
             >
-              {/* <img
+              <img
                 src={Octocat}
                 alt={"Clickable GitHub icon that opens my GitHub profile."}
                 width="62px"
-              /> */}
+              />
             </a>
-          </li>
-          <li id="linked">
+            </ul>
+          <ul id="linked">
             <a
               href="https://www.linkedin.com/in/marta-wambaugh-94892824b/"
               target="_blank"
               rel="noreferrer"
             >
-              {/* <img
+              <img
                 src={LinkedIn}
                 alt={"Clickable LinkedIn icon that opens my LinkedIn profile."}
                 width="52px"
-              /> */}
+              />
             </a>
-          </li>
         </ul>
       </div>
+      </containter>
     </footer>
   );
 }

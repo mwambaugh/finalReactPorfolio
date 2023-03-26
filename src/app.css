@@ -7,7 +7,7 @@
   }
   
   body {
-    background-color: whitesmoke;
+    background-color: lightblue;
   }
   
   .bucket-app {
@@ -146,7 +146,7 @@
     background-color: #ec5700;
     border-radius: 4px;
     width: 75px;
-    color: white;
+    color: red;
     padding: 16px;
     margin: 10px;
     /* font-size: 16px; */
@@ -194,3 +194,6 @@
     background-color: #5d0cff;
   }
   
+  .footer-container {
+    background-color: #149fff;
+  }

@@ -11,8 +11,8 @@ const AboutMe = () => (
     style={{ width: 300, display: "flex", flexDirection: "column" }}
     cover={
       <img
-        alt="example"
-        src=""
+        alt=""
+        src="https://res.cloudinary.com/docfmlnne/image/upload/v1679764337/laptopPJs_nx3ay0.jpg"
       />
     }
     actions={[
