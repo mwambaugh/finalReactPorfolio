@@ -1,51 +1,60 @@
 import React from "react";
-import { GithubFilled, LinkedinFilled } from "@ant-design/icons";
-import { Avatar, Card, Button } from "antd";
+import { GithubFilled} from "@ant-design/icons";
+import { Button, Carousel} from "antd";
+
+const contentStyle = {
+  margin: 0,
+  height: '160px',
+  color: '#fff',
+  lineHeight: '160px',
+  textAlign: 'center',
+  background: '#364d79',
+};
 
 
-const { Meta } = Card;
 
-const Portfolio = () => (
-  <Card
-    hoverable={true}
-    style={{ width: 300, display: "flex", flexDirection: "column" }}
-    cover={
+const Project = () => {
+  const onChange = (currentSlide) => {
+    console.log(currentSlide);
+  };
+  return (
+    // <Carousel afterChange={onChange}>
+      <Carousel autoplay>
+      <div>
+        <h3 style={contentStyle}></h3>
+        cover={
       <img
-        alt=""
-        src="https://res.cloudinary.com/docfmlnne/image/upload/v1679764337/laptopPJs_nx3ay0.jpg"
-      />
-    }
-    actions={[
-      <Button
-        type="text"
-        icon={
-          <LinkedinFilled
-            style={{ color: "#800797", fontSize: "20px" }}
-            key="link"
-          />
-        }
-        href="https://www.linkedin.com/in/marta-wambaugh-94892824b/"
-      ></Button>,
-      <Button
+        alt="example"
+        src="https://res.cloudinary.com/docfmlnne/image/upload/v1679596642/yellowTable_sobxtf.jpg"
+      />},
+      actions={<Button
         type="text"
         icon={
           <GithubFilled
-            style={{ color: "#800797", fontSize: "20px" }}
-            key="link"
-          />
+            style={{ color: "#black", fontSize: "20px" }}
+            key="link"/>
         }
         href="https://github.com/mwambaugh"
-      ></Button>,
-    ]}
-  >
-    <Meta
-      avatar={
-        <Avatar src="https://res.cloudinary.com/docfmlnne/image/upload/v1679764633/IMG_9460_1_xrfkow.jpg" />
-      }
-      title="About Me"
-      description="I'm a full stack web developer based out of Washington D.C."
-    />
-  </Card>
-);
+      ></Button>}
+      </div>
+      <div>
+        <h3 style={contentStyle}>2</h3>
+      </div>
+      <div>
+        <h3 style={contentStyle}>3</h3>
+      </div>
+      <div>
+        <h3 style={contentStyle}>4</h3>
+      </div>
+      <div>
+        <h3 style={contentStyle}>5</h3>
+      </div>
+      <div>
+        <h3 style={contentStyle}>6</h3>
+      </div>
 
-export default Portfolio;
+    </Carousel>
+);
+};
+
+export default Project;

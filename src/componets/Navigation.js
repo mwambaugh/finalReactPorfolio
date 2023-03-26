@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AboutMeCard from "./AboutMeCard";
 import ContactMe from "./ContactCard";
 import Project from "./Project";
+import Resume from "./Resume";
 
 
 
@@ -19,16 +20,18 @@ function Navigation() {
       case "ContactMe":
         return <ContactMe/>;
 
+      case "Resume":
+        return <Resume/>;
+
       default:
         return <AboutMeCard />;
     }
   };
 
   const renderPageChange = (page) => setCurrentPage(page);
-  //   const pages = ["AboutMe", "Portfolio"];
   return (
-    <div>
-      <div>
+    <div >
+      <div >
         <ul className="nav nav-tabs">
           <ul className="nav-item">
             <a
@@ -43,13 +46,13 @@ function Navigation() {
           </ul>
           <ul className="nav-item">
             <a
-              href="#Portfolio"
-              onClick={() => renderPageChange("Portfolio")}
+              href="#Project"
+              onClick={() => renderPageChange("Project")}
               className={
                 currentPage === "AboutMe" ? "nav-link active" : "nav-link"
               }
             >
-              Portfolio
+              Project
             </a>
           </ul>
           <ul className="nav-item">
@@ -63,6 +66,19 @@ function Navigation() {
               Contact Me
             </a>
           </ul>
+
+          <ul className="nav-item">
+            <a
+              href="#Resume"
+              onClick={() => renderPageChange("Resume")}
+              className={
+                currentPage === "Resume" ? "nav-link active" : "nav-link"
+              }
+            >
+              Resume
+            </a>
+          </ul>
+
         </ul>
       </div>
       <main>

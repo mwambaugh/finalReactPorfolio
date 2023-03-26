@@ -8,7 +8,7 @@ const { Meta } = Card;
 const AboutMeCard = () => (
   <Card
     hoverable={true}
-    style={{ width: 300, display: "flex", flexDirection: "column" }}
+    style={{ width: 500, display: "flex", flexDirection: "column" }}
     cover={
       <img
         alt=""

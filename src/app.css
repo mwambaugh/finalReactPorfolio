@@ -2,9 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lexend';
   }
+
+  :root {
+    --light: #d4cfc1;
+    --grod:#ffc34d;
+    --leaf: #11b64b;
+    --mermaid: #267d9c;
+    --costal: #2e515c;
+    --clem: #f26b0a;
+    --error: rgb(228, 46, 1);
+    --spacing-one: calc(1rem * 0.5);
+    --spacing-two: calc(1rem);
+  }
+  
   
   body {
     background-color: lightblue;

@@ -15,7 +15,7 @@ function Header() {
           "https://res.cloudinary.com/docfmlnne/image/upload/v1679764633/IMG_9460_1_xrfkow.jpg"
         }
       />
-      <p>Marta Wambaugh</p>
+      <h1 >Marta Wambaugh</h1>
       <Navigation />
     </header>
   );

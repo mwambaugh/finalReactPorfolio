@@ -11,7 +11,7 @@ function Footer() {
         type="text"
         icon={
           <LinkedinFilled
-            style={{ color: "#800797", fontSize: "20px" }}
+            style={{ color: "#black", fontSize: "20px" }}
             key="link"
           />
         }
@@ -21,7 +21,7 @@ function Footer() {
         type="text"
         icon={
           <GithubFilled
-            style={{ color: "#800797", fontSize: "20px" }}
+            style={{ color: "#black", fontSize: "20px" }}
             key="link"
           />
         }
