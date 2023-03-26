@@ -2,14 +2,14 @@ import React from "react";
 import { GithubFilled} from "@ant-design/icons";
 import { Button, Carousel} from "antd";
 
-const contentStyle = {
-  margin: 0,
-  height: '10px',
-  color: '#3366cc',
-  lineHeight: '160px',
-  textAlign: 'center',
-  background: '#ffffff',
-};
+// const contentStyle = {
+//   margin: 0,
+//   height: '10px',
+//   color: '#3366cc',
+//   lineHeight: '160px',
+//   textAlign: 'center',
+//   background: '#ffffff',
+// };
 
 
 
