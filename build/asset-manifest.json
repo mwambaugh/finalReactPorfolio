@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mwambaugh/finalreactportfolio/static/css/main.9f2ada46.css",
+    "main.js": "/mwambaugh/finalreactportfolio/static/js/main.849910f7.js",
+    "static/js/787.1e8f4167.chunk.js": "/mwambaugh/finalreactportfolio/static/js/787.1e8f4167.chunk.js",
+    "index.html": "/mwambaugh/finalreactportfolio/index.html",
+    "main.9f2ada46.css.map": "/mwambaugh/finalreactportfolio/static/css/main.9f2ada46.css.map",
+    "main.849910f7.js.map": "/mwambaugh/finalreactportfolio/static/js/main.849910f7.js.map",
+    "787.1e8f4167.chunk.js.map": "/mwambaugh/finalreactportfolio/static/js/787.1e8f4167.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f2ada46.css",
+    "static/js/main.849910f7.js"
+  ]
+}
