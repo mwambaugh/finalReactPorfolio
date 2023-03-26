@@ -3,6 +3,7 @@ import AboutMeCard from "./AboutMeCard";
 import ContactMe from "./ContactCard";
 import Project from "./Project";
 import Resume from "./Resume";
+// import DownloadResume from "./DownloadResume"
 
 
 
@@ -22,6 +23,9 @@ function Navigation() {
 
       case "Resume":
         return <Resume/>;
+
+        // case "downloadResume":
+        // return <DownloadResume />;
 
       default:
         return <AboutMeCard />;
@@ -78,6 +82,18 @@ function Navigation() {
               Resume
             </a>
           </ul>
+
+          {/* <ul className="nav-item">
+            <a
+              href="#DownloadResume"
+              onClick={() => renderPageChange("DownloadResume")}
+              className={
+                currentPage === "DownloadResume" ? "nav-link active" : "nav-link"
+              }
+            >
+              Download Resume
+            </a>
+          </ul> */}
 
         </ul>
       </div>

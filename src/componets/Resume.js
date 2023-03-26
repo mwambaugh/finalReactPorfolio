@@ -1,7 +1,6 @@
 import React from "react";
-import { GithubFilled, LinkedinFilled } from "@ant-design/icons";
-import { Avatar} from "antd";
 import { Card, Col, Row } from 'antd';
+import { Container } from "react-bootstrap";
 
 const Resume = () => (
   <Row gutter={16}>

@@ -1,10 +1,10 @@
 import React from "react";
 import { GithubFilled} from "@ant-design/icons";
-import { Button, Carousel} from "antd";
+import { Button, Carousel, Card} from "antd";
 
 const contentStyle = {
   margin: 0,
-  height: '160px',
+  height: '10px',
   color: '#fff',
   lineHeight: '160px',
   textAlign: 'center',
